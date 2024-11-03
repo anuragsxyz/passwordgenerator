@@ -100,9 +100,15 @@ window.navigator.clipboard.writeText(password);
           </div>
         </div>
       </div>
+      
       <button onClick={passwordGenerator} className="shrink-0 outline-blue-500 bg-slate-900 p-5 rounded-md shadow-lg font-bold text-white hover:bg-slate-500">Generate</button>
-       
-    </div>
+      <div className="w-full text-center h-fit place-items-end fixed bottom-0 p-10"> <a href="https://anurags.xyz/" >By - Anurag</a>
+      </div>
+      
+      </div>
+
+     
+
  )
 }
 
